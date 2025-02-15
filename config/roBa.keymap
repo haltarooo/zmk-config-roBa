@@ -68,8 +68,8 @@
         default_layer {
             bindings = <
 &kp Q             &kp W         &mt LEFT_SHIFT E  &mt LEFT_COMMAND R  &mt LEFT_ALT T                                      &kp Y        &kp U  &lt 5 I    &kp O    &lt 1 P
-&kp A             &kp S         &kp D             &kp F               &kp G           &sl 3                &bt BT_SEL 0   &kp H        &kp J  &kp K      &kp L    &kp MINUS
-&mt LEFT_SHIFT Z  &kp X         &kp C             &kp V               &kp B           &sl 6                &bt BT_SEL 2   &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&kp A             &kp S         &kp D             &kp F               &kp G           &sl 3                &bt BT_SEL 0   &kp H        &kp J  &kp K      &kp L    &kp LS(SEMI)
+&mt LEFT_SHIFT Z  &kp X         &kp C             &kp V               &kp B           &sl 6                &bt BT_SEL 2   &kp N        &kp M  &kp COMMA  &kp DOT  &kp APOS
 &kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT      &sl 3               &lt 1 SPACE     &lt 5 LC(SPACE)      &kp BACKSPACE  &lt 2 ENTER                             &kp DEL
             >;
 
@@ -89,7 +89,7 @@
             bindings = <
 &kp TAB              &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS                                              &kp F1            &kp F2             &kp F3          &kp F4           &kp F5
 &kp PERCENT          &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK  &kp LC(LA(KP_NUMBER_0))      &kp SLASH  &kp F6            &kp F7             &kp F8          &kp F9           &kp F10
-&mt LEFT_SHIFT PLUS  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp MINUS     &kp EQUAL                    &kp UNDER  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp SLASH
+&mt LEFT_SHIFT PLUS  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp MINUS     &kp EQUAL                    &kp UNDER  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp BACKSLASH
 &kp ESCAPE           &kp KP_NUMBER_0  &kp PERIOD       &trans           &trans        &trans                       &trans     &trans                                                                &kp PIPE
             >;
         };
